@@ -2,15 +2,13 @@
    text-align: center;
    margin-left:7%;
    margin-right:7%;
-   background-image: url(cal.jpg);
+   background-image: url(cal3.jpg);
    opacity: 0.9;
    background-position: center center; 
    background-repeat: no-repeat;  
    background-attachment: fixed;   
    background-size: contain;
    background-color: #464646;
-   max-height:100%;
-   max-wight:100%;
    border: 4px double black;
    border-collapse: collapse;
 }
