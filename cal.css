@@ -2,7 +2,8 @@
    text-align: center;
    margin-left:7%;
    margin-right:7%;
-   background:url(cal.jpg) repeat х;
+   background-image:url(cal.jpg);
+   background-repeat: no-repeat;
 }
 
 .week {
