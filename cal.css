@@ -1,1 +1,7 @@
-
+.tabl {
+   width:100%;
+   table-layout: fixed;
+}
+td, th {
+  width: 2%;
+}
