@@ -3,12 +3,13 @@
    margin-left:7%;
    margin-right:7%;
    background-image: url(cal.jpg);
-   opacity: 0.7;
+   opacity: 0.9;
    background-position: center center; 
    background-repeat: no-repeat;  
    background-attachment: fixed;   
    background-size: contain;
    background-color: #464646;
+   border: 4px double black;
 }
 
 .week {
