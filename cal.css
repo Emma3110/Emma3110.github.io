@@ -1,5 +1,5 @@
 .tabl {
-   border="1"
+   border:1px;
    width:100%;
    table-layout: fixed;
    text-align: center;
