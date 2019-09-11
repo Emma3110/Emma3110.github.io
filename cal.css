@@ -14,7 +14,11 @@
 }
 
 .week {
-   background:#62ff00;
+   background:#00ff2a;
+}
+
+h1 {
+   text-align: center;
 }
 
 td, th {
