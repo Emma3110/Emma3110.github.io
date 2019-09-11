@@ -5,6 +5,10 @@
    text-align: center;
 }
 
+.week {
+   backround:red;
+}
+
 td, th {
   width: 2%;
 }
