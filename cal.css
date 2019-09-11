@@ -2,6 +2,7 @@
    text-align: center;
    margin-left:7%;
    margin-right:7%;
+   background:url(cal.jpg) repeat х;
 }
 
 .week {
@@ -9,6 +10,5 @@
 }
 
 td, th {
-  background:#cffeff;
   width: 10%;
 }
