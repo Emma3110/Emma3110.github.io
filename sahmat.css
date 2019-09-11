@@ -1,7 +1,12 @@
 .tabl {
+   margin-left:15%;
    border: 4px double black;
    border-collapse: collapse;
    font-size:70%;
+}
+
+h1 {
+   text-align: center;
 }
 
 .black{
