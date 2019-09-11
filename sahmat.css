@@ -1,3 +1,9 @@
+.tabl {
+   border: 4px double black;
+   border-collapse: collapse;
+   font-size:70%;
+}
+
 .black{
  background: #000000;
  width: 8%;
