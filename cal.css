@@ -1,7 +1,10 @@
 .tabl {
+   border="1"
    width:100%;
    table-layout: fixed;
+   text-align: center;
 }
+
 td, th {
   width: 2%;
 }
