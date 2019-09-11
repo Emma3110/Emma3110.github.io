@@ -2,8 +2,13 @@
    text-align: center;
    margin-left:7%;
    margin-right:7%;
-   background-image:url(cal.jpg);
-   background-repeat: no-repeat;
+   background-image: url(cal.jpg);
+   opacity: 0.7;
+   background-position: center center; 
+   background-repeat: no-repeat;  
+   background-attachment: fixed;   
+   background-size: cover;
+   background-color: #464646;
 }
 
 .week {
