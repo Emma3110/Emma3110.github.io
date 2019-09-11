@@ -11,6 +11,7 @@
    background-color: #464646;
    border: 4px double black;
    border-collapse: collapse;
+   font-size:30px;
 }
 
 .week {
@@ -25,5 +26,4 @@ td, th {
   padding-top:1%;
   padding-bottom:1%;
   width: 10%;
-  font-size:20px;
 }
