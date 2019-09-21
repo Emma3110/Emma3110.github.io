@@ -5,8 +5,7 @@
    background-image: url(cal.jpg);
    opacity: 0.9;
    
-   background-repeat: no-repeat;  
-   background-size: auto;
+   background-size: cover;
    background-color: #464646;
    border: 4px double black;
    border-collapse: collapse;
