@@ -1,3 +1,12 @@
+body {
+  background-image: url(fon3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
 .kar {
  width:1002px;
  height:668px;
@@ -21,5 +30,7 @@
 }
 
 .zagol {
-	font-size: 25px;
+ font-size: 25px;
 }
+
+
