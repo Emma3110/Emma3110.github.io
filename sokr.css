@@ -108,13 +108,13 @@ p:first-letter
 {
     display: block;
 }
-.page1Box {
+.textt {
     display: none;
 }
-.page1Box:target {
+.textt:target {
     display: block;
 }
-.page1_style {
+.text_style {
     background-color: #eed774;
     border: 5px #100977 solid;
     margin-left: 70%;
