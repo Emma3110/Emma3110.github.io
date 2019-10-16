@@ -41,6 +41,11 @@ tr:nth-child(1) {
     color: #f5ff09;
 }
 
+th:nth-child(1) {
+    background-color: #fa0230;
+    color: #f5ff09;
+}
+
 img{
     width: 400px;
     height: 400px;
