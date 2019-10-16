@@ -2,8 +2,6 @@ body{
     background-color: abb0af;
 }
 
-
-
 .tabli {
    text-align: center;
    margin-left:30%;
@@ -30,13 +28,13 @@ even
 Все четные номера элементов.*/
 
 tr:nth-child(even) {
-    background-color: Black;
-    color: White;
+    background-color: #278505;
+    color:#61ffff;
 }
 
 tr:nth-child(odd) {
-    background-color: White;
-    color: Black;
+    background-color: #61ffff;
+    color: #278505;
 }
 tr:nth-child(1) {
     background-color: #fa0230;
@@ -67,15 +65,13 @@ img{
 }
 p.size
 {
-    font-family: Snell Roundhand, cursive;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
 }
 p:first-letter
 {
-    font-family: Impact;
-    font-size: 100px;
-    color: navy;
+    font-size: 70px;
+    color: #ffe500;
 }
 .kartinka{
     background-color: blue;
