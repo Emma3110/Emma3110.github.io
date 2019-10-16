@@ -50,19 +50,19 @@ img{
     height: 800px;
     margin-left: 10%;
 }
-.p1
+.kar
 {
     font-size: 50px;
     margin-left: 8%;
     float: left;
 }
-.p2
+.tab
 {
     font-size: 50px;
     float: left;
     margin-left: 20%;
 }
-.p3
+.text
 {
     font-size: 50px;
     float: left;
@@ -81,8 +81,8 @@ p:first-letter
     color: navy;
 }
 .kartinka{
-    background-color: #eed774;
-    border: 5px #100977 solid;
+    background-color: blue;
+    border: 5px #00ffe1 solid;
     width: 30%;
 }
 .kartinka {
@@ -93,8 +93,8 @@ p:first-letter
 }
 .tabl_style
 {
-    background-color: #eed774;
-    border: 5px #772f12 solid;
+    background-color: blue;
+    border: 5px #00ffe1 solid;
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
@@ -116,6 +116,6 @@ p:first-letter
 }
 .text_style {
     background-color: #eed774;
-    border: 5px #100977 solid;
+    border: 5px #00ffe1 solid;
     margin-left: 70%;
 }
