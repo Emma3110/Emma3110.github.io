@@ -5,11 +5,9 @@ body{
 .tabli {
    text-align: center;
    margin-left:30%;
-   margin-right:30%;
    background-color: #ff00e5;
    border: 4px solid black;
    font-size:80%;
-   padding-top:10%;
 }
 .week {
    background:#00ff2a;
@@ -108,6 +106,7 @@ p:first-letter
 .text_style {
     background-color: #9d00ff;
     border: 5px #00ffe1 solid;
-    margin-left: 70%;
+    margin-left: 60%;
+    padding-left:5%;
     padding-top:10%;
 }
