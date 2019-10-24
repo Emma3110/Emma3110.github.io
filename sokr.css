@@ -37,15 +37,6 @@ tr:nth-child(odd) {
     background-color: #61ffff;
     color: #278505;
 }
-tr:nth-child(1) {
-    background-color: #fa0230;
-    color: #f5ff09;
-}
-
-th:nth-child(1) {
-    background-color: #fa0230;
-    color: #f5ff09;
-}
 
 img{
     width: 400px;
