@@ -1,114 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Текст</title>
-    <link rel="stylesheet" type="text/css" href="test.css">
-    <script src="test.script.js"></script>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<link rel="stylesheet" type="text/css" href="test.css">
+	
 </head>
 <body>
-    <body>
- 
-<h1>JavaScript Quiz</h1>
- 
-<section class="main">
- 
-<form name="quiz" action="javascript:check();" class="quizform">
- 
-<div class="quizsection">
- 
- 
-    <h2>Вопрос #1</h2>
-     
-    <div class="answer">
-        <input name="q1" value="value2" id="value1" type="radio" checked="checked" /> Value 1
-    </div>
- 
-    <div class="answer">
-        <input name="q1" value="value1" id="value2" type="radio" /> Value 2
-    </div>
- 
-    <div class="answer">
-        <input name="q1" value="value1" id="value3" type="radio" /> Value 3
-    </div>
- 
-    <div class="answer">
-        <input name="q1" value="value1" id="value4" type="radio" /> Value 4
-    </div>
- 
-    <div class="answer">
-        <input name="q1" value="value1" id="value5" type="radio" /> Value 5
-    </div>
- 
-    <div class="answer">
-        <input name="q1" value="value1" id="value6" type="radio" /> Value 6
-    </div>
- 
-</div>
- 
-<div class="quizsection">
- 
-    <h2>Вопрос #2</h2>
- 
-    <div class="answer">
-        <input name="q2" value="value1" id="value1" type="radio" checked="checked" /> Value 1
-    </div>
- 
-    <div class="answer">
-        <input name="q2" value="value2" id="value2" type="radio" /> Value 2
-    </div>
- 
-    <div class="answer">
-        <input name="q2" value="value1" id="value3" type="radio" /> Value 3
-    </div>
- 
-    <div class="answer">
-        <input name="q2" value="value1" id="value4" type="radio" /> Value 4
-    </div>
- 
-    <div class="answer">
-        <input name="q2" value="value1" id="value5" type="radio" /> Value 5
-    </div>
- 
-    <div class="answer">
-        <input name="q2" value="value1" id="value6" type="radio" /> Value 6
-    </div>
- 
-</div>
- 
-<div class="quizsection">
- 
-    <h2>Вопрос #3</h2>
- 
-    <div class="answer">
-        <input name="q3" value="value1" id="value1" type="radio" checked="checked" /> Value 1
-    </div>
- 
-    <div class="answer">
-        <input name="q3" value="value1" id="value2" type="radio" /> Value 2
-    </div>
- 
-    <div class="answer">
-        <input name="q3" value="value2" id="value3" type="radio" /> Value 3
-    </div>
- 
-    <div class="answer">
-        <input name="q3" value="value1" id="value4" type="radio" /> Value 4
-    </div>
- 
-    <div class="answer">
-        <input name="q3" value="value1" id="value5" type="radio" /> Value 5
-    </div>
- 
-    <div class="answer">
-        <input name="q3" value="value1" id="value6" type="radio" /> Value 6
-    </div>
- 
-</div>
- 
-<input value="Submit" type="submit" /> <input value="Reset" type="reset" />
- 
-</form>
- 
-</section>
+	
+	<div>
+		<p>Какая столица России?</p>
+			
+		<div>
+        	<input name="q2" value="4" class="v2" type="radio"  /> Санкт-Петербург
+    	</div>
+  
+    	<div>
+    	    <input name="q2" value="5" class="v2" type="radio" checked/> Москва
+
+    	</div>
+  	
+    	<div>
+    	    <input name="q2" value="6" class="v2" type="radio" /> Новосибирск
+    	</div>
+        
+        <div>
+    	    <input name="q2" value="7" class="v2" type="radio" /> Кемерово
+    	</div>
+
+		<button onclick="pr2();">Проверка</button>
+    	<p class="otvet" id="p2"></p>
+  	</div>
+    
+    
+    <div>
+		<p>Какой город из СФО?</p>
+			
+		<div>
+        	<input name="q2" value="4" class="v2" type="radio"  /> Какой город из СФО?
+    	</div>
+  
+    	<div>
+    	    <input name="q2" value="5" class="v2" type="radio" checked/> Москва
+
+    	</div>
+  	
+    	<div>
+    	    <input name="q2" value="6" class="v2" type="radio" /> Амурск
+    	</div>
+        
+        <div>
+    	    <input name="q2" value="7" class="v2" type="radio" /> Аргун
+    	</div>
+
+		<button onclick="pr2();">Проверка</button>
+    	<p class="otvet" id="p2"></p>
+  	</div>
+    
+    
+    <div>
+		<p>Какой город был основан в 1716г?</p>
+			
+		<div>
+        	<input name="q2" value="4" class="v2" type="radio"  /> Бердск
+    	</div>
+  
+    	<div>
+    	    <input name="q2" value="5" class="v2" type="radio" checked/> Красноярск
+
+    	</div>
+  	
+    	<div>
+    	    <input name="q2" value="6" class="v2" type="radio" /> Новосибирск
+    	</div>
+        
+        <div>
+    	    <input name="q2" value="7" class="v2" type="radio" /> Курган
+    	</div>
+
+		<button onclick="pr2();">Проверка</button>
+    	<p class="otvet" id="p2"></p>
+  	</div>
+    
+  	<div>
+  		<p>В каких 3 городах население меньше 10т человек?</p>
+  		<div>
+        	<input name="var1" value="1" class="v3" type="checkbox" /> Курильск
+    	</div>
+  
+    	<div>
+    	    <input name="var2" value="2" class="v3" type="checkbox" /> Озерск
+    	</div>
+  	
+    	<div>
+    	    <input name="var3" value="3" class="v3" type="checkbox" />Сычёвка 
+    	</div>
+    	<div>
+    	    <input name="var4" value="4" class="v3" type="checkbox" /> Тамбов
+    	</div>
+    	<div>
+    	    <input name="var5" value="5" class="v3" type="checkbox" /> Тейково
+    	</div>
+        <div>
+    	    <input name="var6" value="6" class="v3" type="checkbox" /> Тобольск
+    	</div>
+
+    	<button onclick="pr3();">Проверка</button>
+    	<p class="otvet" id="p3"></p>
+  	</div>
+	
+<div>
+  		<p>В каких 3 городах население больше 100т человек?</p>
+  		<div>
+        	<input name="var1" value="1" class="v3" type="checkbox" /> Рубцовск
+    	</div>
+  
+    	<div>
+    	    <input name="var2" value="2" class="v3" type="checkbox" /> Тобольск
+    	</div>
+  	
+    	<div>
+    	    <input name="var3" value="3" class="v3" type="checkbox" /> Змеиногорск 
+    	</div>
+    	<div>
+    	    <input name="var4" value="4" class="v3" type="checkbox" /> Каменка
+    	</div>
+    	<div>
+    	    <input name="var5" value="5" class="v3" type="checkbox" /> Екатеринбург
+    	</div>
+
+    	<button onclick="pr3();">Проверка</button>
+    	<p class="otvet" id="p3"></p>
+  	</div>
+
+<div>
+		<p>Какая площадь России в км^2? <input type="text" id="q1"></p>
+		<button onclick="pr1();">Проверка</button>
+		<p class="otvet" id="p1"></p>
+	</div>
+
+    
+    <div>
+		<p>Какое население РФ?</p>
+			
+		<div>
+        	<input name="q2" value="4" class="v2" type="radio"  /> 144,5млн человек
+    	</div>
+  
+    	<div>
+    	    <input name="q2" value="5" class="v2" type="radio" checked/> 140млн человек
+
+    	</div>
+  	
+    	<div>
+    	    <input name="q2" value="6" class="v2" type="radio" /> 148,3млн человек
+    	</div>
+        
+       
+		<button onclick="pr2();">Проверка</button>
+    	<p class="otvet" id="p2"></p>
+  	</div>
+    
+    <div>
+  		<p>Кто был Президентом РФ?</p>
+  		<div>
+        	<input name="var1" value="1" class="v3" type="checkbox" /> Путин В.В.
+    	</div>
+  
+    	<div>
+    	    <input name="var2" value="2" class="v3" type="checkbox" /> Медведев Д.А.
+    	</div>
+  	
+    	<div>
+    	    <input name="var3" value="3" class="v3" type="checkbox" /> Жириновский В.В. 
+    	</div>
+    	<div>
+    	    <input name="var4" value="4" class="v3" type="checkbox" /> Зюганов Г.А.
+    	</div>
+    	<div>
+    	    <input name="var5" value="5" class="v3" type="checkbox" /> Сталин И.В.
+    	</div>
+
+    	<button onclick="pr3();">Проверка</button>
+    	<p class="otvet" id="p3"></p>
+  	</div>
+    
+    <div>
+		<p>На каком языке говорят в РФ? <input type="text" id="q1"></p>
+		<button onclick="pr1();">Проверка</button>
+		<p class="otvet" id="p1"></p>
+	</div>
+    
+    <div>
+		<p>Какая дата основания Москвы?</p>
+			
+		<div>
+        	<input name="q2" value="4" class="v2" type="radio"  /> 1147г
+
+    	</div>
+  
+    	<div>
+    	    <input name="q2" value="5" class="v2" type="radio" checked/> 1150г
+    	</div>
+  	
+    	<div>
+    	    <input name="q2" value="6" class="v2" type="radio" /> 1018г
+    	</div>
+        <div>
+    	    <input name="q2" value="3" class="v2" type="radio" /> 1205г
+    	</div>
+       
+		<button onclick="pr2();">Проверка</button>
+    	<p class="otvet" id="p2"></p>
+  	</div>
+    
+	<div>
+		<button onclick="end();">Итог</button>
+    	<p id="end"></p>
+	</div>	
 </body>
+<script type="text/javascript" src="test.js"></script>
 </html>
