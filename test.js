@@ -1,64 +1,74 @@
-var result;
-   function check()
-   {
-      var question;
-      var value1;
-      var value2;
-       
-      question = 1;
-      value1 = 0;
-      value2 = 0;
-      result = "";
-      var choice;
-      for (question = 1; question <= 3; question++) {
-         var q = document.forms['quiz'].elements['q'+question];
- 
-            for (var i = 0; i < q.length; i++) {
-               if (q[i].checked) {
-                  choice = q[i].value;
-               }
-            }
- 
-            if (choice == "value1") {
-               value1++;
-            }
- 
-            if (choice == "value2") {
-               value2++;
-            }
- 
- 
-         }
- 
-      if (value2 == 0) {
- 
-         // Нет правильных ответов
-         result = "2";
- 
-      }
- 
-      else if (value2 == 1) {
- 
-         // Один правильный ответ
-         result = "3";
- 
-      }
- 
-      else if (value2 == 2) {
- 
-         // Два правильных ответа
-         result = "4";
- 
-      }
- 
-      else if (value2 == 3) {
- 
-         // Три правильных ответа
-         result = "5";
- 
-      }
-      else {
-         result = "404";
-      }
-      window.location = result + '.html';
-   }
+var o1=6;
+var o2=5;
+var o3=2;
+var i1=0;
+var i2=0;
+var i3=0;
+function pr1(){
+	if(document.getElementById('q1').value==o1){
+		document.getElementById('p1').innerHTML="true";
+		i1=1;
+	}
+	else
+	{
+		document.getElementById('p1').innerHTML="false";
+		i1=0;
+	}
+}
+
+function pr2(){
+	var check = document.getElementsByClassName('v2');
+	for (var i = 0;i < check.length; i++)
+	{
+		
+		if(check[i].checked==1)
+		{
+			if(check[i].value==o2)
+			{
+				document.getElementById('p2').innerHTML="true";
+				i2=1;
+			}
+			else
+			{
+				document.getElementById('p2').innerHTML="false";
+				i2=0;
+			}
+		}
+		
+	}
+
+}
+
+function pr3(var pr1, var pr2){
+	var check = document.getElementsByClassName('v3');
+	var test  = 0;
+	for (var i = 0; i < check.length; i++)
+	{
+		if(check[i].checked==1)
+		{
+			if((check[i].value==pr1)||(check[i].value==pr2)) test++; else test=o3+1;
+		}
+		if(test==o3)
+		{
+			document.getElementById('p3').innerHTML="true";
+			i3=1;
+		}
+		else
+		{
+			document.getElementById('p3').innerHTML="false";
+			i3=0;
+		}
+	}
+}
+
+function end(){
+	
+	for(var i=0;i<8;i++)
+{
+	pr1(i);
+}
+	pr2();
+	pr3();
+	
+	document.getElementById('end').innerHTML=ball;
+}
