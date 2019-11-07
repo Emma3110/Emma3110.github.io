@@ -23,7 +23,7 @@ function pr2(){
 		
 		if(check[i].checked==1)
 		{
-			if(check[i].value==o2)
+			if(check[i].value==o3)
 			{
 				document.getElementById('p2').innerHTML="true";
 				i2=1;
