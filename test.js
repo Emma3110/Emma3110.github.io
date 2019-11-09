@@ -159,31 +159,3 @@ if ((ball<5)&&(ball>=0))
 
 
 
-function reset()
-	{
-		mass=document.getElementsByClassName('v2');
-		mass[0].checked=1;
-		mass=document.getElementsByClassName('v1');
-		mass[0].checked=1;
-		mass=document.getElementsByClassName('v3');
-		mass[0].checked=1;
-		mass=document.getElementsByClassName('v4');
-		for (var k=0; k<mas.length;k++)
-		mass[k].checked=0;
-		mass=document.getElementsByClassName('v5');
-		for (k=0; k<mas.length;k++)
-		mass[k].checked=0;
-		mass=document.getElementsByClassName('v6');
-		mass[0].checked=1;
-		mass=document.getElementsByClassName('v7');
-		for (k=0; k<mas.length;k++)
-		mass[k].checked=0;
-		mass=document.getElementsByClassName('v8');
-		mass[0].checked=1;
-		mass=document.getElementsByClassName('v9');
-		mass[0].checked=1;
-		mass=document.getElementById('q1');
-		mass.value="";
-	}
-
-
