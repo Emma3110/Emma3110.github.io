@@ -11,12 +11,12 @@ function reset()
 		for (var l=0; l<mak.length;l++)
 		mak[l].checked=0;
 		mak=document.getElementsByClassName('v5');
-		for (l=0; l<mak.length;l++)
+		for (var l=0; l<mak.length;l++)
 		mak[l].checked=0;
 		mak=document.getElementsByClassName('v6');
 		mak[0].checked=1;
 		mak=document.getElementsByClassName('v7');
-		for (l=0; l<mak.length;l++)
+		for (var l=0; l<mak.length;l++)
 		mak[l].checked=0;
 		mak=document.getElementsByClassName('v8');
 		mak[0].checked=1;
