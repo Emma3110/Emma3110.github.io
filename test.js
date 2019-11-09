@@ -24,6 +24,7 @@ function reset()
 		mass[0].checked=1;
 		mass=document.getElementById('q1');
 		mass.value="";
+		ball=0;
 	}
 
 function q111()
