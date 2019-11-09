@@ -1,7 +1,7 @@
-
+var ball=0;	
 function reset()
 	{
-		mass=document.getElementsByClassName('v2');
+		var mass=document.getElementsByClassName('v2');
 		mass[0].checked=1;
 		mass=document.getElementsByClassName('v1');
 		mass[0].checked=1;
@@ -30,7 +30,7 @@ function reset()
 function q111()
 {
 var otvet=[2,6,4,3,3,17100000,4,2,4,1];	
-var ball=0;	
+ball=0;	
 var mass=document.getElementsByClassName('v2');
 
 for (var i = 0;i < mass.length; i++)
