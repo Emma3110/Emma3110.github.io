@@ -1,3 +1,31 @@
+
+function reset()
+	{
+		mass=document.getElementsByClassName('v2');
+		mass[0].checked=1;
+		mass=document.getElementsByClassName('v1');
+		mass[0].checked=1;
+		mass=document.getElementsByClassName('v3');
+		mass[0].checked=1;
+		mass=document.getElementsByClassName('v4');
+		for (var k=0; k<mas.length;k++)
+		mass[k].checked=0;
+		mass=document.getElementsByClassName('v5');
+		for (k=0; k<mas.length;k++)
+		mass[k].checked=0;
+		mass=document.getElementsByClassName('v6');
+		mass[0].checked=1;
+		mass=document.getElementsByClassName('v7');
+		for (k=0; k<mas.length;k++)
+		mass[k].checked=0;
+		mass=document.getElementsByClassName('v8');
+		mass[0].checked=1;
+		mass=document.getElementsByClassName('v9');
+		mass[0].checked=1;
+		mass=document.getElementById('q1');
+		mass.value="";
+	}
+
 function q111()
 {
 var otvet=[2,6,4,3,3,17100000,4,2,4,1];	
@@ -108,7 +136,6 @@ if(document.getElementById('q1').value==otvet[5]) ball++;
 
 
 
-
 if (ball==10)
 {
 	document.getElementById('end2').innerHTML="Молодец! Все задания верные!Количество верных ответов:"+ball;
@@ -129,5 +156,34 @@ if ((ball<5)&&(ball>=0))
 
 
 }
+
+
+
+function reset()
+	{
+		mass=document.getElementsByClassName('v2');
+		mass[0].checked=1;
+		mass=document.getElementsByClassName('v1');
+		mass[0].checked=1;
+		mass=document.getElementsByClassName('v3');
+		mass[0].checked=1;
+		mass=document.getElementsByClassName('v4');
+		for (var k=0; k<mas.length;k++)
+		mass[k].checked=0;
+		mass=document.getElementsByClassName('v5');
+		for (k=0; k<mas.length;k++)
+		mass[k].checked=0;
+		mass=document.getElementsByClassName('v6');
+		mass[0].checked=1;
+		mass=document.getElementsByClassName('v7');
+		for (k=0; k<mas.length;k++)
+		mass[k].checked=0;
+		mass=document.getElementsByClassName('v8');
+		mass[0].checked=1;
+		mass=document.getElementsByClassName('v9');
+		mass[0].checked=1;
+		mass=document.getElementById('q1');
+		mass.value="";
+	}
 
 
