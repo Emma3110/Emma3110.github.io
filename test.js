@@ -1,29 +1,29 @@
 var ball=0;	
 function reset()
 	{
-		var mass=document.getElementsByClassName('v2');
-		mass[0].checked=1;
-		mass=document.getElementsByClassName('v1');
-		mass[0].checked=1;
-		mass=document.getElementsByClassName('v3');
-		mass[0].checked=1;
-		mass=document.getElementsByClassName('v4');
-		for (var l=0; l<mass.length;l++)
-		mass[l].checked=0;
-		mass=document.getElementsByClassName('v5');
-		for (l=0; l<mass.length;l++)
-		mass[l].checked=0;
-		mass=document.getElementsByClassName('v6');
-		mass[0].checked=1;
-		mass=document.getElementsByClassName('v7');
-		for (l=0; l<mass.length;l++)
-		mass[l].checked=0;
-		mass=document.getElementsByClassName('v8');
-		mass[0].checked=1;
-		mass=document.getElementsByClassName('v9');
-		mass[0].checked=1;
-		mass=document.getElementById('q1');
-		mass.value="";
+		var mak=document.getElementsByClassName('v2');
+		mak[0].checked=1;
+		mak=document.getElementsByClassName('v1');
+		mak[0].checked=1;
+		mak=document.getElementsByClassName('v3');
+		mak[0].checked=1;
+		mak=document.getElementsByClassName('v4');
+		for (var l=0; l<mak.length;l++)
+		mak[l].checked=0;
+		mak=document.getElementsByClassName('v5');
+		for (l=0; l<mak.length;l++)
+		mak[l].checked=0;
+		mak=document.getElementsByClassName('v6');
+		mak[0].checked=1;
+		mak=document.getElementsByClassName('v7');
+		for (l=0; l<mak.length;l++)
+		mak[l].checked=0;
+		mak=document.getElementsByClassName('v8');
+		mak[0].checked=1;
+		mak=document.getElementsByClassName('v9');
+		mak[0].checked=1;
+		mak=document.getElementById('q1');
+		mak.value="";
 		ball=0;
 	}
 
